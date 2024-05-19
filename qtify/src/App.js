@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Button from "./components/Button/Button";
 import Search  from "./components/Search/Search";
 import Navbar from "./components/Navbar/Navbar";
-//import Hero from './components/Hero/Hero';
+import Hero from './components/Hero/Hero';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     
     <>
     <Navbar searchData={searchData} />
-    
+    <Hero />
     </>
     
   );
