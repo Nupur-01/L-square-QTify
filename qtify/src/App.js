@@ -8,10 +8,12 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   const [searchData ,useSearchData]= useState();
   return (
+    
     <>
     <Navbar searchData={searchData} />
     
     </>
+    
   );
     
   
